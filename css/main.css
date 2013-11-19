@@ -36,6 +36,10 @@ section {
 	padding: 8px;
 }
 
+#navigation a {
+	margin-right: 32px;
+}
+
 #body {
 	padding: 32px;
 }
