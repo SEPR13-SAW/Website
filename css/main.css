@@ -1,0 +1,46 @@
+@font-face {
+	font-family: "SourceSansProLight";
+	font-style: normal;
+	font-weight: normal;
+	src: url("../fonts/sspl.woff") format("woff");
+}
+
+html {
+	font-family: "SourceSansProLight", "Helvetica", sans-serif;
+}
+
+body {
+	margin: 0px;
+}
+
+section {
+	display: block;
+}
+
+.content {
+	margin: auto;
+	width: 960px;
+}
+
+#title {
+	background-color: #888;
+	padding: 16px;
+}
+
+#title h1 {
+	font-size: 64px;
+}
+
+#navigation {
+	background-color: #ccc;
+	padding: 8px;
+}
+
+#body {
+	padding: 32px;
+}
+
+footer {
+	background-color: #ccc;
+	padding: 16px;
+}
