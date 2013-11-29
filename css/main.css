@@ -23,24 +23,42 @@ section {
 }
 
 #title {
-	background-color: #888;
+	background-color: #C5F290;
+	background-image: url('../images/noise.png');
 	padding: 16px;
+	border-bottom: 1px solid #647440;
 }
 
 #title h1 {
 	font-size: 64px;
+	text-shadow: 2px -2px 0px #75964c, 4px -4px 0px #3B4A26;
+}
+
+#title h1 a {
+	color: #fff;
+	text-decoration: none;
 }
 
 #navigation {
 	background-color: #ccc;
 	padding: 8px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #bbb;
+}
+
+#navigation a {
+	color: #111;
+	margin-right: 32px;
 }
 
 #body {
+	background-color: #fff;
 	padding: 32px;
 }
 
 footer {
 	background-color: #ccc;
 	padding: 16px;
+	border-top: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
 }
